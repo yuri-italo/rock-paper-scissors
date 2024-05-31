@@ -1,17 +1,16 @@
-function getComputerChoice() {
-  const choices = ["rock", "paper", "scissors"];
-  return choices[Math.floor(Math.random() * choices.length)];
+const possibleChoices = ["rock", "paper", "scissors"];
+
+function getComputerChoice(possibleChoices) {
+  return possibleChoices[Math.floor(Math.random() * possibleChoices.length)];
 }
 
-function getHumanChoice() {
-  const choices = ["rock", "paper", "scissors"];
+function getHumanChoice(possibleChoices) {
   let humanChoice;
-
   do {
     humanChoice = window.prompt(
       "What is your choice? [rock, paper or scissors]"
     );
-  } while (choices.indexOf(humanChoice) === -1);
+  } while (possibleChoices.indexOf(humanChoice) === -1);
 
   return humanChoice;
 }
