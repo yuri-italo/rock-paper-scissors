@@ -2,26 +2,30 @@
 
 ## Project Overview
 
-This project is a simple console-based implementation of the classic game Rock Paper Scissors. The game is designed as part of The Odin Project's Foundations Course to help learners practice and reinforce their understanding of JavaScript basics.
+This project is a modern implementation of the classic game Rock Paper Scissors with a simple graphical user interface (GUI). The game is designed to be played directly in the browser, featuring score tracking and a "Play Again" option after someone reaches a score of 5.
 
 ## Purpose
 
-The main objective of this project is to provide hands-on experience with JavaScript by building a functional game from scratch. It aims to solidify your understanding of fundamental programming concepts such as functions, loops, conditionals, and user input handling.
+The goal of this project is to provide hands-on experience with JavaScript, HTML, and DOM manipulation. By building this game, learners can solidify their understanding of essential programming concepts such as event handling, conditionals, and dynamically updating the DOM.
 
 ## Features
 
-- **Console-based Gameplay**: The game is played entirely in the browser's console.
+- **Graphical Gameplay**: The game is played via buttons for each choice (Rock, Paper, Scissors), and results are shown directly on the webpage.
 - **Randomized Computer Choices**: The computer randomly selects its move from the three options (rock, paper, or scissors).
-- **User Input**: The player inputs their choice via a prompt.
-- **Score Tracking**: The game keeps track of the scores for both the player and the computer over multiple rounds.
-- **Round Results**: After each round, the game announces the winner and updates the scores accordingly.
-- **Final Score Display**: After playing a specified number of rounds, the game displays the final scores.
+- **Score Tracking**: The game keeps track of the scores for both the player and the computer.
+- **Dynamic Round Results**: After each round, the game announces the winner and updates the scores.
+- **End Game and Play Again**: Once either the player or the computer reaches 5 points, the game displays the final result and offers a "Play Again" option.
 
 ## Technologies Used
 
-- **JavaScript**: The core logic of the game is implemented in JavaScript.
-- **HTML**: A basic HTML file is used to link the external JavaScript file and open the console for gameplay.
+- **JavaScript**: Handles game logic, event listeners, and DOM manipulation.
+- **HTML**: Provides the structure for the game interface.
+- **CSS (via Font Awesome)**: Icons for Rock, Paper, and Scissors choices.
+
+## Code Changes
+
+The latest version of the game moves from a console-based interface to a graphical user interface (GUI). Players can now interact with the game by clicking buttons corresponding to their choices. The game dynamically updates the scores and displays messages such as "You won!" or "You lose!" after each round. Additionally, a "Play Again" option appears once a player wins by reaching 5 points.
 
 ## Conclusion
 
-Working on this Rock Paper Scissors project has been a fantastic way to strengthen my JavaScript skills. It gave me practical experience with essential programming concepts and helped me improve my problem-solving abilities. I highly recommend trying out this project if you want to get hands-on with JavaScript and have some fun coding!
+This project has been an excellent opportunity to enhance my skills in JavaScript and DOM manipulation. Building the graphical version of Rock Paper Scissors was both challenging and rewarding, and it helped improve my problem-solving abilities. I encourage others to try this project to gain hands-on experience with JavaScript and front-end web development.
